@@ -23,22 +23,28 @@
 - Download this repository.
 or clone the repo :
 ```
-git clone https://github.com/bimbims125/mazer-django.git
+$ git clone https://github.com/antheiz/mazer-flask
 ```
 - Make virtual environment
 ```
-py -m venv (your own name)
+$ python -m venv Env
 ```
 - Activate the Virtual Environment
 ```
-env\scripts\activate
+$ Env\scripts\activate (for windows)
+$ source Env/bin/activate (for linux)
 ```
 
-- Install django
+- Install Flask and dependencies
 ```
-pip install django
+$ pip install -r requirements.txt
 ```
 - run 
 ```
-py manage.py runserver
+$ python manage.py runserver
 ```
+- Open `127.0.0.1:5000` in your Browser
+
+## License
+
+Mazer is under the [MIT License](LICENSE).
