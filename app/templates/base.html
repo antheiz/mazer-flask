@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Mazer Admin Dashboard</title>
+
+    <link rel="stylesheet" href="{{ url_for ('static', filename='assets/css/main/app.css') }}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='assets/css/main/app-dark.css') }}">
+    <link rel="shortcut icon" href="{{ url_for ('static', filename='assets/images/logo/favicon.svg') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ url_for ('static', filename='assets/images/logo/favicon.png') }}" type="image/png">
+
+    <link rel="stylesheet" href="{{ url_for ('static', filename='assets/css/shared/iconly.css') }}">
+
+</head>
+
+<body>
+    <div id="app">
+        
+        {% include 'snippets/sidebar.html' %}
+
+        <div id="main">        
+            
+            {% block content %}
+                
+            {% endblock content %}                
+            
+            {% include 'snippets/footer.html' %}                
+            
+        </div>
+    </div>
+    <script src="{{ url_for ('static', filename='assets/js/bootstrap.js') }}"></script>
+    <script src="{{ url_for ('static', filename='assets/js/app.js') }}"></script>
+
+    <!-- Need: Apexcharts -->
+    <script src="{{ url_for ('static', filename='assets/extensions/apexcharts/apexcharts.min.js') }}"></script>
+    <script src="{{ url_for ('static', filename='assets/js/pages/dashboard.js') }}"></script>
+
+</body>
+
+</html>
