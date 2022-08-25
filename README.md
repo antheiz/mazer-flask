@@ -27,7 +27,7 @@ $ git clone https://github.com/antheiz/mazer-flask
 ```
 - Make virtual environment
 ```
-$ python -m venv Env
+$ python -m venv env
 ```
 - Activate the Virtual Environment
 ```
@@ -41,7 +41,7 @@ $ pip install -r requirements.txt
 ```
 - run 
 ```
-$ python manage.py runserver
+$ python run.py
 ```
 - Open `127.0.0.1:5000` in your Browser
 
