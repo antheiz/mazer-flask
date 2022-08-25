@@ -31,8 +31,8 @@ $ python -m venv env
 ```
 - Activate the Virtual Environment
 ```
-$ Env\scripts\activate (for windows)
-$ source Env/bin/activate (for linux)
+$ env\scripts\activate (for windows)
+$ source env/bin/activate (for linux)
 ```
 
 - Install Flask and dependencies
