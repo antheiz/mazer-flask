@@ -1,3 +1,19 @@
+## [1.11.6](https://github.com/iamkun/dayjs/compare/v1.11.5...v1.11.6) (2022-10-21)
+
+
+### Bug Fixes
+
+* add BigIntSupport plugin ([#2087](https://github.com/iamkun/dayjs/issues/2087)) ([f6dce48](https://github.com/iamkun/dayjs/commit/f6dce48a9e39677718b087867d9fd901d5078155))
+* Fix objectSupport collides with Duration plugin - issue [#2027](https://github.com/iamkun/dayjs/issues/2027) ([#2038](https://github.com/iamkun/dayjs/issues/2038)) ([c9370ea](https://github.com/iamkun/dayjs/commit/c9370ea96bf420439ee7eaa4146e8ed643160312))
+
+## [1.11.5](https://github.com/iamkun/dayjs/compare/v1.11.4...v1.11.5) (2022-08-12)
+
+
+### Bug Fixes
+
+* ordinal for nl not working ([#2011](https://github.com/iamkun/dayjs/issues/2011)) ([c93c85e](https://github.com/iamkun/dayjs/commit/c93c85eaa11564a1aae2d823480a417812c01bf4))
+* wrong ordinal for french locale ([#2010](https://github.com/iamkun/dayjs/issues/2010)) ([dd192a7](https://github.com/iamkun/dayjs/commit/dd192a72fc5d26ce56481e89b0c1ccf5f939be0c))
+
 ## [1.11.4](https://github.com/iamkun/dayjs/compare/v1.11.3...v1.11.4) (2022-07-19)
 
 

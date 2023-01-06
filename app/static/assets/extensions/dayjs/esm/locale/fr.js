@@ -33,7 +33,7 @@ var locale = {
     yy: '%d ans'
   },
   ordinal: function ordinal(n) {
-    var o = n === 1 ? 'er' : 'e';
+    var o = n === 1 ? 'er' : '';
     return "" + n + o;
   }
 };
