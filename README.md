@@ -27,7 +27,7 @@
 or clone the repo :
 
     ```
-    $ git clone https://github.com/antheiz/mazer-flask
+    $ git clone https://github.com/antheiz/mazer-flask.git
     ```
     
 2. Make virtual environment
@@ -58,7 +58,7 @@ or clone the repo :
 
 ### Building with Docker
 
-- Clone the repository `git clone https://github.com/zuramai/mazer`
+- Clone the repository `git clone https://github.com/antheiz/mazer-flask.git`
 - Make sure you have Docker installed and run:
     - `docker build -t mazer-flask .`
     - `docker run -it -d -p 5000:5000 --name mazer mazer-flask`
