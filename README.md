@@ -20,30 +20,50 @@
 - Repository: [github.com/zuramai/mazer](https://github.com/zuramai/mazer)
 
 ## Installation
-- Download this repository.
-or clone the repo :
-```
-$ git clone https://github.com/antheiz/mazer-flask
-```
-- Make virtual environment
-```
-$ python -m venv env
-```
-- Activate the Virtual Environment
-```
-$ env\scripts\activate (for windows)
-$ source env/bin/activate (for linux)
-```
 
-- Install Flask and dependencies
-```
-$ pip install -r requirements.txt
-```
-- run 
-```
-$ python run.py
-```
-- Open `127.0.0.1:5000` in your Browser
+### Building yourself
+
+1. Download this repository.
+or clone the repo :
+
+    ```
+    $ git clone https://github.com/antheiz/mazer-flask
+    ```
+    
+2. Make virtual environment
+
+    ```
+    $ python -m venv env
+    ```
+    
+3. Activate the Virtual Environment
+
+    ```
+    $ env\scripts\activate (for windows)
+    $ source env/bin/activate (for linux)
+    ```
+    
+4. Install Flask and dependencies
+
+    ```
+    $ pip install -r requirements.txt
+    ```
+    
+5. Run it locall
+
+    ```
+    $ python run.py
+    ```
+    Open `127.0.0.1:5000` in your Browser
+
+### Building with Docker
+
+- Clone the repository `git clone https://github.com/zuramai/mazer`
+- Make sure you have Docker installed and run:
+    - `docker build -t mazer-flask .`
+    - `docker run -it -d -p 5000:5000 --name mazer mazer-flask`
+    - Open `http://localhost:5000`
+
 
 ## License
 

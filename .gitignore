@@ -1,9 +1,24 @@
-# Folders to ignore
-env
+### Flask ###
+instance/*
+!instance/.gitignore
+.webassets-cache
+.env
 
-# OS or Editor folders
-._*
-.cache
-.DS_Store
-.idea
-.vscode
+### Flask.Python Stack ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Translations
+*.mo
+*.pot
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
